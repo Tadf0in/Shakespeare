@@ -28,44 +28,35 @@ Remplacez `model.pth` par le nom du fichier où vous voulez enregistrer/charger 
 Toute une liste de paramètres supplémentaires sont précisables :
 
   
-  * `--train               Mode` :  entraînement
+  * `--train` : Mode entraînement
   
-  * `--infer               Mode` :  inférence
+  * `--infer` : Mode inférence
   
-  * `--save_model SAVE_MODEL` : 
-                        Sauvegarde le modèle dans le fichier spécifié
+  * `--save_model SAVE_MODEL` : Sauvegarde le modèle dans le fichier spécifié
   
-  * `--load_model LOAD_MODEL` : 
-                        Charge le modèle depuis le fichier spécifié
+  * `--load_model LOAD_MODEL` : Charge le modèle depuis le fichier spécifié
   
-  * `--batch_size BATCH_SIZE` : 
-                        Nombre d'I/O que le modèle doit apprendre par batch
+  * `--batch_size BATCH_SIZE` : Nombre d'I/O que le modèle doit apprendre par batch
   
-  * `--block_size BLOCK_SIZE` : 
-                        Longueur des séquences que le transformer doit apprendre
+  * `--block_size BLOCK_SIZE` : Longueur des séquences que le transformer doit apprendre
   
-  * `--max_iters MAX_ITERS` : 
-                        Nombre d'itérations d'apprentissage
+  * `--max_iters MAX_ITERS` : Nombre d'itérations d'apprentissage
   
-  * `--eval_interval EVAL_INTERVAL` : 
-                        Intervalle d'évaluation pendant l'entraînement
+  * `--eval_interval EVAL_INTERVAL` : Intervalle d'évaluation pendant l'entraînement
   
-  * `--learning_rate LEARNING_RATE` : 
-                        Taux d'apprentissage
+  * `--learning_rate LEARNING_RATE` : Taux d'apprentissage
   
-  * `--eval_iters EVAL_ITERS` : 
-                        Nombre d'itérations d'évaluation
+  * `--eval_iters EVAL_ITERS` : Nombre d'itérations d'évaluation
   
-  * `--n_embd N_EMBD` :        Dimension de l'espace dans lequel on projette les caractères
+  * `--n_embd N_EMBD` : Dimension de l'espace dans lequel on projette les caractères
   
-  * `--n_head N_HEAD` :        Nombre de têtes d'attention
+  * `--n_head N_HEAD` : Nombre de têtes d'attention
   
-  * `--n_layer N_LAYER` :      Nombre de couches
+  * `--n_layer N_LAYER` : Nombre de couches
   
-  * `--dropout DROPOUT` :      Probabilité de dropout
+  * `--dropout DROPOUT` : Probabilité de dropout
   
-  * `--head_size HEAD_SIZE` : 
-                        Dimension des têtes d'attention dans laquelle sont projettés les caractères
+  * `--head_size HEAD_SIZE` : Dimension des têtes d'attention dans laquelle sont projettés les caractères
 
 <br/>
 
